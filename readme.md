@@ -1,9 +1,11 @@
 HTML5 构建工具
 
->脚手架改自[凹凸实验室](https://github.com/o2team)，自定义配置，构建工具与项目分离，目录更清爽，功能齐全，建议github上clone项目，通过npm link的方式使用，自定义程度更高！
-
+>脚手架可自定义配置，构建工具与项目分离，目录更清爽，功能齐全，建议github上clone项目，通过npm link的方式使用，自定义程度更高！
 
 ```sh
+# 安装脚手架
+$ npm install create-h5-app -g 
+
 # 初始化项目
 $ h5 init demo
 
@@ -17,7 +19,7 @@ $ h5 start
 $ h5 --help
 ```
 
->模板来源 [elf-templates](https://github.com/elf-templates)
+>模板来源 [FE-tpls](https://github.com/FE-tpls)
 
 ### 主要功能
 

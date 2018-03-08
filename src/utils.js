@@ -1,7 +1,7 @@
 const fs = require('fs');
 
 /**
- * check file/dir whether exist
+ * 查看文件是否存在
  *
  * @param {string} path check path
  * @param {string} type [file, dir]

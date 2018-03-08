@@ -5,9 +5,9 @@ const ora = require('ora');
 
 const spinner = ora('Loading template list').start();
 request({
-  url: 'https://api.github.com/users/elf-templates/repos',
+  url: 'https://api.github.com/users/FE-tpls/repos',
   headers: {
-    'User-Agent': 'elf-cli'
+    'User-Agent': 'FE-tpls'
   }
 }, function (err, res, body) {
   spinner.stop();
