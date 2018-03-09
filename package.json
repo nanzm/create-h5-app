@@ -1,6 +1,6 @@
 {
   "name": "create-h5-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "HTML5 boilerplate and build tool",
   "bin": {
     "h5": "./bin/h5.js"
